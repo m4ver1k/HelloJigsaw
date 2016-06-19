@@ -7,12 +7,17 @@ But the project structure / Compiling and running is a little different also tak
 
 This workspace contain 3 packages(Each is a module as in JDK 9) in the src folder:
 
-*com.foo.app
-- Contains the Main Class
-*com.foo.bar
--Contains a class that return Hello String from a static method
-com.foo.baz
--Contains a class that return Jigsaw String from a static method
+- com.foo.app
+
+Contains the Main Class
+
+- com.foo.bar
+
+Contains a class that return Hello String from a static method
+
+- com.foo.baz
+
+Contains a class that return Jigsaw String from a static method
 
 ##To Compile
 Each Module to be compiled separately:
